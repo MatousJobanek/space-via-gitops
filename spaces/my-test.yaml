@@ -1,0 +1,9 @@
+apiVersion: toolchain.dev.openshift.com/v1alpha1
+kind: Space
+metadata:
+  name: my-test
+  namespace: toolchain-host-operator
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+spec:
+  tierName: naas
