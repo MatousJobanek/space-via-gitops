@@ -4,7 +4,6 @@ metadata:
   name: johny
   namespace: toolchain-host-operator
   annotations:
-    share.with/admin: test
     argocd.argoproj.io/compare-options: IgnoreExtraneous
 spec:
   tierName: naas
