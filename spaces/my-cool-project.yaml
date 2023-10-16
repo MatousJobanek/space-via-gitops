@@ -5,5 +5,6 @@ metadata:
   namespace: toolchain-host-operator
   annotations:
     argocd.argoproj.io/compare-options: IgnoreExtraneous
+    share.with/admin: MatousJobanek
 spec:
   tierName: naas
