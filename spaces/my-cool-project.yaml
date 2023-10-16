@@ -4,8 +4,6 @@ metadata:
   name: my-cool-project
   namespace: toolchain-host-operator
   annotations:
-    share.with/admin: MatousJobanek,alexey
-    share.with/contributor: xavier
     argocd.argoproj.io/compare-options: IgnoreExtraneous
 spec:
   tierName: naas
